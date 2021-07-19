@@ -213,7 +213,7 @@ def prev():
     slider_position =  int(song_length)
     slider.config(to=slider_position, value=0)
 
-#
+#Function to play nextsong
 def next():
     #reset slider and status bar
     status_bar.config(text='')
